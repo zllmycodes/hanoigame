@@ -1,0 +1,25 @@
+{
+  "name": "hanoigame",
+  "version": "1.0.0",
+  "description": "zll Hanoi Game for cxy61.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zllmycodes/hanoigame.git"
+  },
+  "author": "zll",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zllmycodes/hanoigame/issues"
+  },
+  "homepage": "https://github.com/zllmycodes/hanoigame#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

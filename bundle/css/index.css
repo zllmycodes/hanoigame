@@ -1,0 +1,97 @@
+.gameWrapper {
+  width: 70%;
+  height: auto;
+  margin: 5% auto;
+  color: #617e9e;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #999;
+  box-shadow: 5px 5px 10px #999;
+  cursor: default; }
+
+.gameRules {
+  width: 90%;
+  height: auto;
+  margin: 3% auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #999;
+  overflow: hidden; }
+
+.rulesLeft {
+  margin-right: 20%;
+  padding: 1% 2% 2% 4%;
+  float: left; }
+  .rulesLeft a {
+    color: #667d97;
+    text-decoration: none;
+    font-size: 0.8rem; }
+    .rulesLeft a:hover {
+      color: #aaa; }
+
+.rulesRight {
+  padding: 3% 2% 2%;
+  margin-left: 10%;
+  float: left; }
+
+.gameBody {
+  width: 90%;
+  height: auto;
+  margin: 3% auto;
+  overflow: hidden; }
+  .gameBody .gameShow {
+    width: 60%;
+    height: 24%;
+    margin-right: 3%;
+    float: left;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #999; }
+    .gameBody .gameShow canvas {
+      background-color: #ddd; }
+  .gameBody .gameHandle {
+    width: 36%;
+    height: 24%;
+    float: left;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #999; }
+    .gameBody .gameHandle .setDiscNum {
+      width: 92%;
+      margin: 4% auto; }
+    .gameBody .gameHandle input {
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px #999;
+      width: 60%;
+      margin-right: 5px;
+      padding: 5px;
+      outline-color: #999;
+      color: #333; }
+      .gameBody .gameHandle input:focus {
+        box-shadow: 3px 3px 5px #617e9e;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px #999; }
+    .gameBody .gameHandle button {
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px #999;
+      width: 32%;
+      cursor: pointer;
+      color: #ddd;
+      background-color: #617e9e;
+      padding: 5px 8px; }
+      .gameBody .gameHandle button:hover {
+        background-color: #569db8; }
+    .gameBody .gameHandle .infoPrompt {
+      width: 92%;
+      height: 30%;
+      margin: 4% auto; }
+    .gameBody .gameHandle .gameBtns {
+      width: 92%;
+      margin: 4% auto; }
+      .gameBody .gameHandle .gameBtns button {
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 3%; }

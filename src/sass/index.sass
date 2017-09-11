@@ -1,0 +1,97 @@
+$marg: 3% auto
+$lightGray: #999
+$darkGray: #666
+$lightBlue: #617e9e
+
+@mixin border
+  border: 1px solid #aaa
+  border-radius: 5px
+  box-shadow: 3px 3px 5px $lightGray
+
+@mixin mShadow
+  box-shadow: 5px 5px 10px $lightGray
+
+
+.gameWrapper
+  width: 70%
+  height: auto
+  margin: 5% auto
+  color: $lightBlue
+  @include border
+  @include mShadow
+  cursor: default
+
+.gameRules
+  width: 90%
+  height: auto
+  margin: $marg
+  @include border
+  overflow: hidden
+
+.rulesLeft
+  margin-right: 20%
+  padding: 1% 2% 2% 4%
+  float: left
+  a
+    color: #667d97
+    text-decoration: none
+    font-size: 0.8rem
+    &:hover
+      color: #aaa
+
+.rulesRight
+  padding: 3% 2% 2%
+  margin-left: 10%
+  float: left
+
+.gameBody
+  width: 90%
+  height: auto
+  margin: $marg
+  overflow: hidden
+  .gameShow
+    width: 60%
+    height: 24%
+    margin-right: 3%
+    float: left
+    @include border
+    canvas
+      background-color: #ddd
+  .gameHandle
+    width: 36%
+    height: 24%
+    float: left
+    @include border
+    .setDiscNum
+      width: 92%
+      margin: 4% auto
+    input
+      @include border
+      width: 60%
+      margin-right: 5px
+      padding: 5px
+      outline-color: #999
+      color: #333
+      &:focus
+        box-shadow: 3px 3px 5px $lightBlue
+        @include border
+    button
+      @include border
+      width: 32%
+      cursor: pointer
+      color: #ddd
+      background-color: $lightBlue
+      padding: 5px 8px
+      &:hover
+        background-color: #569db8
+    .infoPrompt
+      width: 92%
+      height: 30%
+      margin: 4% auto
+    .gameBtns
+      width: 92%
+      margin: 4% auto
+      button
+        width: 45%
+        margin-right: 5%
+        margin-bottom: 3%
